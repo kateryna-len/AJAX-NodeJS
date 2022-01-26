@@ -27,7 +27,7 @@ getPostBtn.addEventListener('click', async () => {
 })
 
 function getPostsRequest() {
-  return fetch('./users.json', {
+  return fetch('http://localhost:5500/user', {
     headers: {
       "Content-type": "application/json",
       'Accept': 'application/json'
